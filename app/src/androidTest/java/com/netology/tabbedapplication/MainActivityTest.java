@@ -28,7 +28,7 @@ public class MainActivityTest {
             new ActivityScenarioRule<>(MainActivity.class);
 
     @Test
-    public void mainActivityTest2() {
+    public void MainActivityTestNew() {
         ViewInteraction tabView = onView(
                 allOf(withContentDescription("Tab 2"),
                         isDisplayed()));
